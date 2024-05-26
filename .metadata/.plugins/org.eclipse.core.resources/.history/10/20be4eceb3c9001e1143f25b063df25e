@@ -1,0 +1,17 @@
+package com.movie.review.service;
+
+import java.util.List;
+
+import org.bson.types.ObjectId;
+import org.springframework.http.HttpStatusCode;
+
+import com.movie.review.entity.Movie;
+
+public interface MovieService {
+
+	
+	List<Movie> getAllMovies();
+
+	HttpStatusCode getMovieById(ObjectId id);
+
+}

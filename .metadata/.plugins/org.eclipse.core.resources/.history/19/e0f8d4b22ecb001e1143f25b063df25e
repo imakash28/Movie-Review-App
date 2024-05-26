@@ -1,0 +1,5 @@
+package com.movie.review.serviceImpl;
+
+public class ReviewServiceImpl {
+
+}

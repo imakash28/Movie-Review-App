@@ -1,0 +1,10 @@
+package com.movie.review.repository;
+
+import org.bson.types.ObjectId;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+import com.movie.review.entity.Review;
+
+public interface ReviewRepository extends MongoRepository<Review, ObjectId> {
+
+}

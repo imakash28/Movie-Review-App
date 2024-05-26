@@ -1,0 +1,9 @@
+package com.movie.review.serviceImpl;
+
+import org.springframework.stereotype.Service;
+
+import com.movie.review.service.MovieService;
+@Service
+public class MovieServiceImpl implements MovieService {
+
+}
